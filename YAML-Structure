@@ -1,0 +1,52 @@
+YAML document example :
+
+---
+address:
+  street: "101 Main Street"
+  city: San Jose
+  state: California
+  zip: 95035
+...
+
+--- is used to indicate the start of YAML document 
+... is used to indicate the end of YAML document
+
+One YAML file can have more than one YAML document by using the --- and ...
+
+Indentation is used to create collections/nested maps ( Standard indentation is 2 sapces )
+spaces after : is used to define key value pairs
+
+
+YAML Styles:
+  1- Block Style
+  2- Flow Style aka JSON style aka compact Style
+    [...] for lists
+    {...} for maps
+
+
+Block Style list example
+---
+fruits:
+  - banana
+  - mango
+  - apple
+...
+
+Flow Style list example
+---
+fruits: [banana, mango, apple ]
+...
+
+Block Style map example
+---
+address:
+  street: "101 Main Street"
+  city: San Jose
+  state: California
+  zip: 95035
+...
+
+Flow Style map example
+---
+address:{ street: "101 Main Street", city: San Jose, state: California, zip: 95035}
+...
