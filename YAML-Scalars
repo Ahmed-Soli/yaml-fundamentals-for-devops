@@ -1,0 +1,22 @@
+Scalars :
+  1- strings
+  2- numbers
+  3- Booleans
+  4- nulls
+  5- dates
+  6- scientific notation
+ 
+example
+---
+  street: "101 Main Street" #string
+  city: San Jose  #string
+  state: California  #string
+  zip: 95035  #number
+  state_population: 5e+10 #scientific notation
+  occupied: true #boolean
+  lease_end_date: "2025-01-01" #date YAML uses ISO-8601 standard to express dates
+  total_area_sqft: #empty value, null and ~ represent nulls
+  message: | #we use | with long string which will preserve the new line characters and > will ignore new line characters
+    is a human-readable data serialization format. 
+    It is often used for configuration files and data exchange between programming languages.
+...
